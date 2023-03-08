@@ -16,6 +16,8 @@ public class Principal {
         int dni = sc.nextInt();
         Agenda.consultarCliente(dni, clientes);
         sc.close();
+        System.out.println("Listado de clientes:");
+        Agenda.listarClientes(clientes);
 
     }
     
